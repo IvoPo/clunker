@@ -1,6 +1,5 @@
 # MCU name
 MCU = RP2040
-BOARD = GENERIC_RP_RP2040
 
 # Bootloader selection
 BOOTLOADER = rp2040
@@ -18,14 +17,11 @@ WS2812_DRIVER = vendor
 # Audio currently doesn't work with the RP2040
 AUDIO_ENABLE = no
 
-# convert to rp2040 pinout. if you use the kb2040 comment this line and uncomment the second line
-#CONVERT_TO = promicro_rp2040
-CONVERT_TO = kb2040
-
 # Haptic Feedback
 HAPTIC_ENABLE = yes
 HAPTIC_DRIVER += SOLENOID
+
 EXTRAKEY_ENABLE = yes
 MOUSEKEY_ENABLE = yes
-ENCODER_ENABLE = yes
+ENCODER_ENABLE = no
 NKRO_ENABLE = yes

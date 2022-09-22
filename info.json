@@ -4,8 +4,8 @@
     "maintainer": "kylemccreery",
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "rows": ["F5", "F6", "B3", "F7", "B2", "B1", "B6"],
-        "cols": ["D1", "D0", "D4", "C6", "D7", "E6", "B4", "B5"]
+        "rows": ["GP28", "GP27", "GP20", "GP26", "GP19", "GP18", "GP10"],
+        "cols": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"]
     },
     "url": "https://mechwild.com/product/clunker/",
     "usb": {
